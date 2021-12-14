@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="https://www.ngdc.noaa.gov/metadata/published/xsd/ngdcSchema/schema.xsd">
+   <idinfo>
+      <datsetid>gov.noaa.nmfs.inport:52020</datsetid>
+      <citation>
+         <citeinfo>
+            <pubdate>20150414</pubdate>
+            <title>2013 Topographic Lidar DEM: Oahu</title>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>
+              This metadata record was derived from an ISO format record and may be missing components. See the ISO version for more information.
+                The Oahu, Hawaii Elevation Data Task Order involves collecting and delivering topographic elevation point data derived from multiple return light detection and ranging (LiDAR) measurements on the island of Oahu in Hawaii.  The Statement of Work (SOW) for the area covering the northern 2/3 of Oahu was developed by the National Oceanic and Atmospheric Administration's (NOAA) Office for Coastal Management. A separate but related task order was issued by the USGS National Geospatial Technical Operations Center (NGTOC), under their Geospatial Products and Services Contract (GPSC), to leverage the same resources committed to the NOAA LiDAR project for the acquisition of LiDAR data in the southern 1/3 portion of Oahu.  The combined task orders yielded one study area covering the entire island of Oahu.  The data collected for the island of Oahu will exhibit Hydro Flattened DEMs for inclusion into the NED. The purpose of the data is for use in coastal management decision making, including applications such as flood plain mapping and water rights management.  The point density for this data set was specified in the SOW at 1.15 pts/m2. The NOAA Office for Coastal Management tested the NPS (nominal pulse spacing) for this data set in April 2015. The NPS was determined to be 0.84 m. The data used in the NPS determination were the first returns of classes 1,2,9, and 10.
+This data set is a raster file with 5149 columns and 2761 rows and may have been mosaiced, reprojected, and clipped from the original tiles. The data set was generated from a larger data set and includes all valid data within the requested geographic bounds.
+		</abstract>
+         <purpose>Lifts are planned to meet project specifications and are flown under cloud-free conditions in order to collect LIDAR points at an average of 1.0 meter point spacing. This allows the user to create Intensity Images, Break Lines, Hydro Flattened DEMs and fully Classified LiDAR LAS files.</purpose>
+      </descript>
+      <status>
+         <progress>Complete</progress>
+         <update>asNeeded</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>
+		-157.83087744
+		</westbc>
+            <eastbc>
+		-157.78131444
+		</eastbc>
+            <northbc>21.727501</northbc>
+            <southbc>21.251804</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>Global Change Master Directory (GCMD) Science Keywords</themekt>
+            <themekey>EARTH SCIENCE &gt; LAND SURFACE &gt; TOPOGRAPHY &gt; TERRAIN ELEVATION &gt; TOPOGRAPHICAL RELIEF MAPS</themekey>
+            <themekey>EARTH SCIENCE &gt; OCEANS &gt; BATHYMETRY/SEAFLOOR TOPOGRAPHY &gt; SEAFLOOR TOPOGRAPHY</themekey>
+            <themekey>EARTH SCIENCE &gt; OCEANS &gt; COASTAL PROCESSES &gt; COASTAL ELEVATION</themekey>
+         </theme>
+         <theme>
+            <themekt>CoRIS Discovery Thesaurus</themekt>
+            <themekey>Geographic Information &gt; LiDAR</themekey>
+         </theme>
+         <theme>
+            <themekt>CoRIS Theme Thesaurus</themekt>
+            <themekey>EARTH SCIENCE &gt; Land Surface &gt; Topography &gt; Terrain Elevation</themekey>
+         </theme>
+         <theme>
+            <themekey>Bathymetry/Topography</themekey>
+            <themekey>Elevation</themekey>
+            <themekey>LiDAR</themekey>
+            <themekey>LiDAR LAS digital terrain model</themekey>
+            <themekey>Model</themekey>
+            <themekey>Surface</themekey>
+            <themekey>Terrain</themekey>
+         </theme>
+         <place>
+            <placekt>Global Change Master Directory (GCMD) Location Keywords</placekt>
+            <placekey>CONTINENT &gt; NORTH AMERICA &gt; UNITED STATES OF AMERICA &gt; HAWAII</placekey>
+            <placekey>OCEAN &gt; PACIFIC OCEAN &gt; CENTRAL PACIFIC OCEAN &gt; HAWAIIAN ISLANDS &gt; OAHU</placekey>
+         </place>
+         <place>
+            <placekt>CoRIS Place Thesaurus</placekt>
+            <placekey>COUNTRY/TERRITORY &gt; United States of America &gt; Hawaii &gt; Honolulu &gt; Oahu (21N157W0003)</placekey>
+            <placekey>OCEAN BASIN &gt; Pacific Ocean &gt; Central Pacific Ocean &gt; Hawaiian Islands &gt; Oahu Island &gt; Oahu (21N157W0003)</placekey>
+         </place>
+         <place>
+            <placekey>Hawaii</placekey>
+            <placekey>Honolulu County</placekey>
+            <placekey>Oahu</placekey>
+            <placekey>US</placekey>
+         </place>
+      </keywords>
+      <accconst>Restriction Code: otherRestrictions;  </accconst>
+      <useconst>Use Limitation: NOAA provides no warranty, nor accepts any liability occurring from any incomplete, incorrect, or misleading data, or from any incorrect, incomplete, or misleading use of the data. It is the responsibility of the user to determine whether or not the data is suitable for the intended purpose.;   Other: 
+		This data set was compiled dynamically, and will exist on https://chs.coast.noaa.gov/pickup/dav/680244/Job680244_2013_oahu_dem.zip until 10 days after 12/08/2021. The file will then be deleted from the system.
+			Cite As: Office for Coastal Management, [Date of Access]: 2013 Topographic Lidar DEM: Oahu [Data Date Range], https://www.fisheries.noaa.gov/inport/item/52020.;   Other: 
+		This data set was compiled dynamically, and will exist on https://chs.coast.noaa.gov/pickup/dav/680244/Job680244_2013_oahu_dem.zip until 10 days after 12/08/2021. The file will then be deleted from the system.
+			Access Constraints: None | Use Constraints: Users should be aware that temporal changes may have occurred since this data set was collected and some parts of this data may no longer represent actual surface conditions. Users should not use this data for critical applications without a full awareness of its limitations. These data depict the heights at the time of the survey and are only accurate for that time.
+This data is in the public domain. | Distribution Liability: Any conclusions drawn from the analysis of this information are not the responsibility of USGS, USDA NRCS, NOAA, the Office for Coastal Management or its partners.;   </useconst>
+   </idinfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>NOAA Office for Coastal Management</cntorg>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>physical and mailing</addrtype>
+               <address>2234 South Hobson Ave</address>
+               <city>Charleston</city>
+               <state>SC</state>
+               <postal>29405-2413</postal>
+            </cntaddr>
+            <cntvoice>(843) 740-1202</cntvoice>
+            <cntemail>coastal.info@noaa.gov</cntemail>
+         </cntinfo>
+      </distrib>
+      <distliab>Unknown </distliab>
+   </distinfo>
+   <metainfo>
+      <metd>20211130</metd>
+      <metc>
+         <cntinfo>
+            <cntperp>
+               <cntorg>Office for Coastal Management</cntorg>
+            </cntperp>
+            <cntaddr>
+               <addrtype>mailing and physical</addrtype>
+            </cntaddr>
+            <cntvoice>missing</cntvoice>
+         </cntinfo>
+      </metc>
+      <metc>
+         <cntinfo>
+            <cntperp>
+               <cntorg>NOAA Office for Coastal Management</cntorg>
+            </cntperp>
+            <cntaddr>
+               <addrtype>mailing and physical</addrtype>
+               <address>2234 South Hobson Ave</address>
+               <city>Charleston</city>
+               <state>SC</state>
+               <postal>29405-2413</postal>
+            </cntaddr>
+            <cntvoice>(843) 740-1202</cntvoice>
+            <cntemail>coastal.info@noaa.gov</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>Content Standard for Digital Geospatial Metadata: Extensions for Remote Sensing Metadata</metstdn>
+      <metstdv>FGDC-STD-012-2002</metstdv>
+   </metainfo>
+</metadata>
