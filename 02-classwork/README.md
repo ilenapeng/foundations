@@ -1,4 +1,4 @@
-# Command line, lists and dictionaries
+# 02-classwork: Command line, lists and dictionaries
 
 [donow-answers.txt](https://github.com/ilenapeng/foundations/blob/main/02-classwork/donow-answers.txt) - Answers to the do-now, covers data types, if/elif/else, lists
 
