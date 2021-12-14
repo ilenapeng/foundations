@@ -11,7 +11,7 @@ Class 3
 * [Homework](https://github.com/ilenapeng/foundations/tree/main/03-homework) - Introduction to APIs, using PokéAPI
 
 Class 4
-* [Homework](https://github.com/ilenapeng/foundations/tree/main/04-homework) - APIs using requests, using LastFM and WeatherAPI
+* [Homework](https://github.com/ilenapeng/foundations/tree/main/04-homework) - More APIs, using LastFM and WeatherAPI
 
 Class 5
 * [Classwork](https://github.com/ilenapeng/foundations/tree/main/05-classwork) - Introduction to pandas
