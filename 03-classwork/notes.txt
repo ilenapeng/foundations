@@ -1,0 +1,25 @@
+# Python vs Command Line vs SQL
+
+## Command Line (from Terminal)
+
+"Command line commands"
+
+* cd - changes directories/folders
+* ls - lists files
+* la -la - lists files in a better way!!!
+* python filename.py
+    * Means "Hey Python, run the Python code in this file"
+
+## Python
+
+Python code goes in a Python file, then you run it from Terminal
+
+* print("Hello world")
+* numbers = [4, 5, 6]
+* len(numbers)
+
+## SQL
+
+Can only be run in a SQL prompt
+
+Which you can get to from the command line!!!

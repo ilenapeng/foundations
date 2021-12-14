@@ -1,0 +1,71 @@
+# Whatis the output for the code below?
+i = 5 # nothing
+print(5 * 5) # 25
+print(i) # 5
+print("cat" + "dog") # catdog
+print("cat", "dog") # cat dog
+print("i") # i
+print("5" + "5") # 55
+
+
+
+# What is wrong?
+print(5 + "5")
+print(5 + 5)
+print("5" + "5")
+print(str(5) + "5")
+print(5 + int("5"))
+print(int(5) + int("5"))
+
+int("5")
+5
+int(5)
+
+
+
+
+Hello = 5
+print(Hello)
+
+print(Hello)
+print("Hello")
+
+
+currentYear = 2021
+current_year = 2021
+
+
+
+
+# What two thing are wrong?
+if n == 2:
+    print("two")
+
+# what shell?
+bash
+zsh
+Cmder
+
+# What would be printed for n = 10? n = 5?
+n=-5
+print(n)
+if n > 0:
+    print("A")
+    if n >= 3:
+        print("B")
+        print("C")
+    elif n > 2:
+        print("D")
+    else:
+        print("E")
+elif n > -2:
+    print("F")
+else:
+    print("G")
+
+if n < 5:
+    print("H")
+
+
+# How do we get the first number?
+numbers = [4, 5, 6, 1]

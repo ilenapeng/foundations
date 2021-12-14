@@ -1,0 +1,195 @@
+# I have a list called "bubblegum". How do I get the first element?
+
+bubblegum[0]
+
+# The last element?
+
+bubblegum[-1]
+
+# How do I get the number of elements in the "bubblegum" list?
+
+len(bubblegum)
+# NOT bubblegum.length
+# NOT bubblegum.len()
+
+
+# I have a dictionary called "data" and want to see what keys it has. How do I do that?
+
+{
+    'a': 5,
+    'b': 6,
+    'c': 8
+}
+
+
+data.keys()
+['a', 'b', 'c']
+# NOT keys(data)
+
+
+# What does this error mean?
+# name 'cat' is not defined
+
+# What does this error mean?
+# KeyError: 'age'
+
+# What does this error mean?
+# TypeError: list indices must be integers or slices, not str
+
+letters = ['a', 'b', 'c']
+letters[1] # 1 is the INDEX
+letters['age']
+letters[0]
+letters[1]
+letters[2]
+
+letters[1:2]
+
+
+# I have a dictionary called "data" and want to see what keys it has. How do I do that?
+
+# Using the code below, what does each line produce?
+
+
+
+
+
+borough_name = 'Manhattan'
+z = ['Manhattan', 'Queens']
+x = {
+    'borough_name': 'Manhattan',
+    'population': 500
+}
+y = {
+    'Manhattan': 500,
+    'Queens': 200
+}
+
+
+
+
+
+
+# Manhattan
+x['borough_name']
+# x["Manhattan"]
+# ERROR!!!! bc Manhattan is not a key
+x[borough_name]
+# ERROR!!! bc x is a dictionary and you can't use integer indices for dictionaries
+x[0]
+
+# ERROR! KeyError
+y['borough_name']
+# y["Manhattan"]
+# 500
+y[borough_name]
+# ERROR!!!
+y[0]
+
+# ERROR!!!!
+z['borough_name']
+# z["Manhattan"]
+# NO!! ERROR!!
+z[borough_name]
+# "Manhattan"
+z[0]
+
+
+
+
+
+
+
+# Print out each art piece's name.
+art_pieces = [
+    { 'title': 'Gold Star', 'year': 1805, 'worth': 100 },
+    { 'title': 'Blunderbuss', 'year': 1800, 'worth': 7 },
+    { 'title': 'Chairlift', 'year': 1976, 'worth': 10 },
+    { 'title': 'Rancor', 'year': 2002, 'worth': 200 }
+]
+
+art = { 'title': 'Gold Star', 'year': 1805, 'worth': 100 }
+
+if art['year'] < 1980:
+    print("SELL IT!!!!!")
+
+# LIST COMPREHENSION
+# Step 1: We want a list! Make a []
+# Step 2: We want to do something to every element of
+#         art pieces! put a for loop INSIDE THE []
+# Step 3: Put whatever you're looking for on the left
+[art['worth'] for art in art_pieces]
+# Step 4: (optional) put conditions in
+[art['worth'] for art in art_pieces if art['year'] < 1980]
+
+
+# Step 3/4 but for something different:
+# If you want to filter a list
+# So, we only want pieces worth more than $50
+[art for art in art_pieces if art['worth'] > 50]
+
+for art in art_pieces:
+    if art['worth'] > 50:
+        print(art)
+
+
+[art for art in art_pieces]
+
+# This is what I want to be able to do:
+sum([100, 7, 10, 200])
+# Which means I need to somehow get
+[100, 7, 10, 200]
+# If you want to do this
+art_pieces['worth']
+# Instead, you get to do the worst part of Python
+# list comprehension
+
+len(art_pieces) # 4
+
+art_pieces.keys() # ERROR!!!!
+
+art = art_pieces[0]
+print("-----")
+print(art['title'])
+
+art = art_pieces[1]
+print("------")
+print(art['title'])
+
+
+art = art_pieces[2]
+print("-----")
+print(art['title'])
+
+
+for art in art_pieces:
+    print("------")
+    print(art['title'])
+
+
+
+
+# Write code to calculate the total number of murders
+murders = {
+    'Albany': 23,
+    'Kings County': 10,
+    'Rochester': 7,
+    'Yonkers': 9
+}
+
+murders.keys() # ['Albany', 'KC', 'Rochester', 'Yonkers']
+murders.values() # [23, 10, 7, 9]
+sum(murders.values())
+
+23 + 10 + 7 + 9
+
+total = 0
+for key, value in murders.items():
+    total = total + value
+print(total)
+
+
+
+sum([23, 10, 7, 9])
+
+
