@@ -1,6 +1,6 @@
 # 07-homework:
 
-[Part 1: Cherry Blossoms](https://github.com/ilenapeng/foundations/tree/main/07-homework/part1-cherry-blossoms)
+### [Part 1: Cherry Blossoms](https://github.com/ilenapeng/foundations/tree/main/07-homework/part1-cherry-blossoms)
 * [cherry-blossoms.ipynb](https://github.com/ilenapeng/foundations/blob/main/07-homework/part1-cherry-blossoms/cherry-blossoms.ipynb)
 * Data from [KyotoFullFlower7.xls](https://github.com/ilenapeng/foundations/blob/main/07-homework/part1-cherry-blossoms/KyotoFullFlower7.xls)
 * Using xlrd to import .xls 
@@ -9,7 +9,7 @@
 * pd.to_datetime will fill in missing date information (in this case, years and hours, with other values - which we don't need and so we can ignore)
 * dt.strftime - formats a datetime as a string
 
-[Part 2: 311](https://github.com/ilenapeng/foundations/tree/main/07-homework/part2-311)
+### [Part 2: 311](https://github.com/ilenapeng/foundations/tree/main/07-homework/part2-311)
 * [311.ipynb](https://github.com/ilenapeng/foundations/blob/main/07-homework/part2-311/311.ipynb)
 * [Correct answers that we went over the following week](https://github.com/ilenapeng/foundations/blob/main/07-homework/part2-311/311-in-class-review.ipynb)
 * Data was a subset from NYC 311 data - not uploaded here because of file size
