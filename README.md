@@ -1,5 +1,5 @@
 # foundations
- Classwork and homework for fall 2021 Foundations of Computing course
+ Classwork and homework for fall 2021 [Foundations of Computing](https://jonathansoma.com/course/foundations-2021/syllabus/) course
 
 ### Class 1 - Computer setup, Python and the Command Line
 * [Classwork](https://github.com/ilenapeng/foundations/tree/main/01-classwork)
